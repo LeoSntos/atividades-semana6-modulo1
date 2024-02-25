@@ -1,11 +1,96 @@
-#cabecalho {
-    background: yellow;
+
+* {
+    margin: 0px;
+    font-family: 'Open Sans';
 }
+
+body {
+    overflow: hidden;
+    background-image: linear-gradient(to left, #7d8597, #0353a4);
+    color: black;
+}
+
+/* cabecalho */
+
+#cabecalho {
+    background: #33415c;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#titulo {
+    font-size: 30pt;
+}
+
+/* conteudo principal */
 
 #principal {
-    background: purple;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+
 }
 
+#historia {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 350px;
+    text-align: justify;
+    font-size: 14pt;
+}
+
+.espaco-up {
+    padding-top: 10px;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+}
+
+#usuarioFoto {
+    position: relative;
+    left: 100px;
+} 
+
+#usuario {
+    font-size: 10pt;
+    position: relative;
+    top: 70px;
+    left: 10px;
+}
+
+#bloco {
+    position: absolute;
+    background: #979dac;
+    padding: 30px;
+    border-radius: 40px;
+    left: 160px;
+    bottom: 50px;
+}
+
+#contatos {
+    position: relative;
+    left: 1150px;
+    bottom: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* rodapé */
+
 #rodape {
-    background: red;
+    position: relative;
+    background: #33415c;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    top: 110px;
+}
+
+#linkedin {
+    margin: 0px 5px ;
 }
